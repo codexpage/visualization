@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: drawing3 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ywx\AppData\Local\Temp\RSP7870.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/drawing3.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\ywx\Desktop\drawing3\drawing3View.cpp"
+]
+Creating command line "cl.exe @C:\Users\ywx\AppData\Local\Temp\RSP7870.tmp" 
+Creating temporary file "C:\Users\ywx\AppData\Local\Temp\RSP7871.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/drawing3.pdb" /debug /machine:I386 /out:"Debug/drawing3.exe" /pdbtype:sept 
+.\Debug\drawing3.obj
+.\Debug\drawing3Doc.obj
+.\Debug\drawing3View.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\drawing3.res
+]
+Creating command line "link.exe @C:\Users\ywx\AppData\Local\Temp\RSP7871.tmp"
+<h3>Output Window</h3>
+Compiling...
+drawing3View.cpp
+C:\Users\ywx\Desktop\drawing3\drawing3View.cpp(215) : warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\ywx\Desktop\drawing3\drawing3View.cpp(219) : warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\ywx\Desktop\drawing3\drawing3View.cpp(234) : warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\ywx\Desktop\drawing3\drawing3View.cpp(238) : warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\ywx\Desktop\drawing3\drawing3View.cpp(256) : warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\ywx\Desktop\drawing3\drawing3View.cpp(260) : warning C4244: '-=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\ywx\Desktop\drawing3\drawing3View.cpp(275) : warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\ywx\Desktop\drawing3\drawing3View.cpp(279) : warning C4244: '-=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\ywx\Desktop\drawing3\drawing3View.cpp(301) : warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\ywx\Desktop\drawing3\drawing3View.cpp(305) : warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\ywx\Desktop\drawing3\drawing3View.cpp(317) : warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\ywx\Desktop\drawing3\drawing3View.cpp(321) : warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\ywx\Desktop\drawing3\drawing3View.cpp(334) : warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\ywx\Desktop\drawing3\drawing3View.cpp(338) : warning C4244: '-=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\ywx\Desktop\drawing3\drawing3View.cpp(350) : warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\ywx\Desktop\drawing3\drawing3View.cpp(354) : warning C4244: '-=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\ywx\Desktop\drawing3\drawing3View.cpp(370) : warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\ywx\Desktop\drawing3\drawing3View.cpp(374) : warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\ywx\Desktop\drawing3\drawing3View.cpp(387) : warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+C:\Users\ywx\Desktop\drawing3\drawing3View.cpp(391) : warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+drawing3.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
